@@ -1,0 +1,89 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.010  000.010: --- NVIM STARTING ---
+000.352  000.342: event init
+000.478  000.126: early init
+000.681  000.203: locale set
+000.732  000.051: init first window
+001.063  000.330: inits 1
+001.080  000.017: window checked
+001.163  000.083: parsing arguments
+001.766  000.074  000.074: require('vim.shared')
+001.896  000.047  000.047: require('vim._options')
+001.898  000.129  000.081: require('vim._editor')
+001.900  000.252  000.050: require('vim._init_packages')
+001.903  000.488: init lua interpreter
+002.735  000.832: expanding arguments
+002.775  000.040: inits 2
+003.142  000.367: init highlight
+003.146  000.004: waiting for UI
+006.704  003.558: done waiting for UI
+006.720  000.016: clear screen
+009.320  002.600: init default mappings & autocommands
+016.824  000.970  000.970: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/ftplugin.vim
+018.538  001.042  001.042: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/indent.vim
+018.826  007.494: sourcing vimrc file(s)
+021.756  002.263  002.263: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/filetype.lua
+024.425  000.265  000.265: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/syntax/synload.vim
+025.232  002.304  002.039: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/syntax/syntax.vim
+040.656  001.109  001.109: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/gzip.vim
+040.783  000.034  000.034: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/health.vim
+045.853  002.509  002.509: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+047.950  007.125  004.616: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/matchit.vim
+048.656  000.468  000.468: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/matchparen.vim
+049.480  000.648  000.648: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/netrwPlugin.vim
+049.836  000.181  000.181: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/rplugin.vim
+050.272  000.271  000.271: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/shada.vim
+050.629  000.170  000.170: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/spellfile.vim
+051.063  000.257  000.257: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/tarPlugin.vim
+051.900  000.643  000.643: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/tohtml.vim
+052.207  000.142  000.142: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/tutor.vim
+052.699  000.319  000.319: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/zipPlugin.vim
+054.409  000.400  000.400: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/editorconfig.lua
+054.934  000.361  000.361: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/man.lua
+055.408  000.307  000.307: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/plugin/nvim.lua
+055.666  019.837: loading rtp plugins
+056.473  000.808: loading packages
+058.033  001.560: loading after plugins
+058.054  000.021: inits 3
+058.057  000.003: reading ShaDa
+058.334  000.277: opening buffers
+058.359  000.026: BufEnter autocommands
+058.362  000.003: editing files in windows
+593.365  533.846  533.846: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/autoload/netrw.vim
+593.950  000.054  000.054: sourcing /home/blaccod/.local/share/nvim/.netrwhist
+615.580  004.562  004.562: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/syntax/netrw.vim
+626.080  000.447  000.447: sourcing /tmp/.mount_nvimBqcqRR/usr/share/nvim/runtime/syntax/netrw.vim
+637.913  001.798  001.798: require('vim.filetype')
+647.717  004.411  004.411: require('vim.filetype.detect')
+648.413  044.932: VimEnter autocommands
+648.419  000.007: UIEnter autocommands
+648.422  000.003: before starting main loop
+650.467  002.045: first screen update
+650.471  000.005: --- NVIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.012  000.012: --- NVIM STARTING ---
+016.513  016.501: event init
+036.337  019.823: early init
+036.657  000.320: locale set
+046.071  009.414: init first window
+062.532  016.461: inits 1
+062.562  000.030: window checked
+062.667  000.105: parsing arguments
+076.213  000.069  000.069: require('vim.shared')
+076.349  000.048  000.048: require('vim._options')
+076.353  000.131  000.083: require('vim._editor')
+076.355  000.261  000.060: require('vim._init_packages')
+076.358  013.431: init lua interpreter
+077.510  001.151: expanding arguments
+077.588  000.078: inits 2
+080.717  003.130: init highlight
