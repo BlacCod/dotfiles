@@ -1,0 +1,11 @@
+[user]
+	name = Vu Huy Nguyen
+	email = 26673584+BlacCod@users.noreply.github.com
+[init]
+	defaultBranch = main
+[diff]
+	algorithm = histogram
+[branch]
+	sort = -commiterdate
+[core]
+	editor = nvim
