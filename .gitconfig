@@ -6,6 +6,6 @@
 [diff]
 	algorithm = histogram
 [branch]
-	sort = -commiterdate
+	sort = -committerdate
 [core]
 	editor = nvim
