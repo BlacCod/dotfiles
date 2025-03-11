@@ -1,6 +1,6 @@
 vim.g.mapleader = ' '
 
-vim.keymap.set('n', '<leader>vp', vim.cmd.Ex, { desc = 'Open :Ex' })
+vim.keymap.set('n', '<leader>vp', vim.cmd.Oil, { desc = 'Open :Ex' })
 
 -- Highlight then move code around, same as Alt + Arrow key
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv", { desc = 'Move highlighted code down' })
