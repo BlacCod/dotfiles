@@ -58,8 +58,8 @@ vim.opt.splitbelow = true
 -- Sets how neovim will display certain whitespace characters in the editor.
 --  See `:help 'list'`
 --  and `:help 'listchars'`
--- vim.opt.list = true
--- vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.opt.list = true
+vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 -- Preview substitutions live, as you type!
 vim.opt.inccommand = 'split'
@@ -551,7 +551,7 @@ require('lazy').setup({
       --  - settings (table): Override the default settings passed when initializing the server.
       --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
       local servers = {
-        clangd = {},
+        -- clangd = {},
         -- gopls = {},
         -- pyright = {},
         -- rust_analyzer = {},
@@ -564,11 +564,20 @@ require('lazy').setup({
         -- tsserver = {},
         --
 
-        ruff = {},
+        ruff = {
+          init_options = {
+            settings = {
+              lint = {
+                ignore = { 'F401' },
+              },
+            },
+          },
+        },
         basedpyright = {
           settings = {
             basedpyright = {
               disableOrganizeImports = true,
+              typeCheckingMode = 'off',
             },
             analysis = {
               ignore = { '*' },
@@ -658,7 +667,7 @@ require('lazy').setup({
       formatters_by_ft = {
         lua = { 'stylua' },
         -- Conform can also run multiple formatters sequentially
-        python = { 'ruff' },
+        python = { 'ruff_format' },
         --
         -- You can use a sub-list to tell conform to run *until* a formatter
         -- is found.
@@ -799,6 +808,16 @@ require('lazy').setup({
 
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
+
+  {
+    'stevearc/oil.nvim',
+    ---@module 'oil'
+    ---@type oil.SetupOpts
+    opts = {},
+    -- Optional dependencies
+    dependencies = { { 'echasnovski/mini.icons', opts = {} } },
+    -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if prefer nvim-web-devicons
+  },
 
   { -- Collection of various small independent plugins/modules
     'echasnovski/mini.nvim',
