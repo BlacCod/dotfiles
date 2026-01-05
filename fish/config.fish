@@ -2,5 +2,5 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-bind \cF "tmux-sessionizer"
+bind ctrl-f "tmux-sessionizer"
 zoxide init fish | source
